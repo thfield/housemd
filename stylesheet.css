@@ -1,0 +1,30 @@
+
+/* ----- html ----- */
+body {
+  background-color: #ddd;
+}
+.hidden {
+  display: none;
+}
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+.center {
+  margin: auto;
+}
+hr {
+  width: 75%;
+  margin: 40px auto;
+}
+header {
+
+}
+footer {
+
+}
+h1 {
+  
+}
